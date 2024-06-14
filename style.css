@@ -1,0 +1,84 @@
+#body2{
+    background-image:url(funeral2.jpeg);
+    background-position:cover ;
+}
+#body1{
+    background-image: url(aboutus.jpeg);
+    background-position: cover;
+    background-repeat: no-repeat;
+}
+/* Centered content */
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.1);  /*White background with 70% opacity */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    text-align: center;
+}
+
+/* Navigation Bar Styling */
+nav {
+    background-color: #c29b9b;
+    overflow: hidden;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    float: right;
+}
+
+nav ul li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav ul .logo {
+    float:left;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color:rgb(0,0,0)
+}
+
+nav ul li a:hover {
+    background-color: #9c6067;
+    color: rgb(248, 245, 245);
+}
+.GetStarted-button {
+    background-color: rgb(161, 111, 118);
+    color: rgb(255, 255, 255);
+    border:none;
+
+    border-radius: 15px;
+    height: 35px;
+    width: 125px;
+    font-weight:bold;
+    font-size:15px;
+    cursor: pointer;
+    
+}
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color:#333;
+    background-color: #c29b9b;
+    text-align: center;
+}
+h1{
+    font-size: 36px;
+    font-weight: bold;
+    color:#222;
+    text-align: center;
+
+}
